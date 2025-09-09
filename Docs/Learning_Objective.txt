@@ -1,0 +1,7 @@
+Python Basic 
+
+ Variable 
+ Data type : int ,float,str,Bool,list,tuple
+ derived data type : list objective ,tuple,dict
+ memory layout : all the memory stored in heap stack 
+ 

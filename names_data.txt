@@ -1,2 +1,2 @@
-Sorted List: ['ets', 'gtj', 'ueh']
-Sorted Tuple: ('ets', 'gtj', 'ueh')
+Sorted List: ['htis', 'isr', 'namw']
+Sorted Tuple: ('htis', 'isr', 'namw')

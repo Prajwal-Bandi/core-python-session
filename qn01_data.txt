@@ -1,2 +1,2 @@
-List: ['h', 'e', 'w', 'r', 'f']
-Tuple: ('h', 'e', 'w', 'r', 'f')
+List: ['jkbnerf']
+Tuple: ('jkbnerf',)

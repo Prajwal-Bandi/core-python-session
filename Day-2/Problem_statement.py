@@ -13,17 +13,18 @@ def user_words(user_input):
     user_tuple = tuple(user_list)
     return user_list, user_tuple
 
-# Step 1: Accept user input
+
 user_input = input('Enter a sequence of words (space-separated): ')
 
-# Step 2: Get list and tuple
+
 words_list, words_tuple = user_words(user_input)
 
-# Step 3: Display list and tuple
+
 print("List:", words_list)
 print("Tuple:", words_tuple)
 
-# Step 4: Write to file
+
+
 filename = 'qn01_data.txt'
 with open(filename, 'w') as file:
     file.write(f'List: {words_list}\n')
@@ -158,7 +159,6 @@ print("Number List:", numbers)
 print("Maximum:", max_num)
 print("Minimum:", min_num)
 
-# Step 4: Save to file
 filename = 'minmax_data.txt'
 with open(filename, 'w') as file:
     file.write(f"Number List: {numbers}\n")

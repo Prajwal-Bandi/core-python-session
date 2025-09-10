@@ -188,3 +188,6 @@ with open('student.json','w')as file :
 with open('student.json','r')as reader:
     content=json.load(reader)
     print(content)
+    
+
+

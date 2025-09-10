@@ -1,0 +1,3 @@
+Number List: [1, 2, 32, 12, 34, 56]
+Maximum: 56
+Minimum: 1

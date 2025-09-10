@@ -1,0 +1,2 @@
+Word List: ['this', 'is', 'new', 'sentence']
+Uppercase Word Tuple: ('THIS', 'IS', 'NEW', 'SENTENCE')

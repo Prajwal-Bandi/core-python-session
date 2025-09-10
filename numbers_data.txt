@@ -1,0 +1,3 @@
+Numbers List: [7, 32, 45, 32]
+Sum: 116
+Average: 29.00

@@ -1,2 +1,6 @@
 data type
 function 
+
+file hanlding : input and output operation 
+write creating file 
+read : calling reading file 

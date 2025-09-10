@@ -19,4 +19,16 @@ Quickly locate bugs and fix them
 
 
 
+# serialization : Converting python object into a format that can be used or saved 
+# Deserialization : reverse process of serialization 
+# pickle : Machine readable file  in Binary mode : (0,1)
+# Json : Human readable file 
+
+
+dump we use while Converting object into byte string format that can be saved r stored (write byte,wb)
+load : to reverse the dump or object ( read byte ,rb)
+
+
+
+
 

@@ -151,6 +151,8 @@
 # pickle : Machine readable file  in Binary mode : (0,1)
 # Json : Human readable file 
 
+
+# pickle file 
 flight={'Flight_number':123,
         'Airline':'Indigo',
         'Source':'Banglore',
@@ -168,3 +170,21 @@ with open('flight.pkl','rb')as file :
     reader=pickle.load(file)
     print(f'After reading:',reader)
     
+    
+
+# Json file 
+student={'Name':'Prajwal',
+         'Location':'Banglore',
+         'salary':40000,
+         'Company':'Cisco'}
+
+import json
+with open('student.json','w')as file :
+    content=json.dump(student,file)
+    print(content)    
+    
+    
+# read json file 
+with open('student.json','r')as reader:
+    content=json.load(reader)
+    print(content)

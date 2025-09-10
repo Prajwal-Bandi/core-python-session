@@ -30,5 +30,3 @@ load : to reverse the dump or object ( read byte ,rb)
 
 
 
-
-

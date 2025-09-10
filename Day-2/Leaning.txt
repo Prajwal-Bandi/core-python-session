@@ -1,6 +1,22 @@
-data type
-function 
+data type :int,tuple,list
+slicing : taking part of it 
+some basic operation : start:stop:step
+
+
+
 
 file hanlding : input and output operation 
 write creating file 
 read : calling reading file 
+
+
+
+"Run and Debug" helps you find and fix errors in your code by allowing you to:
+Pause the program at specific lines
+Check variable values step-by-step
+Understand the flow of the program
+Quickly locate bugs and fix them
+
+
+
+

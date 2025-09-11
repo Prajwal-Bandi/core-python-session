@@ -4,7 +4,7 @@ from .db_models import Base,Employee
 
 
 #db setup
-engine=create_engine('sqlite:///employee_app_db.db',echo=True)
+engine=create_engine('sqlite:///employee_app_db.db',echo=False)
 Base.metadata.create_all(engine)
 
 #session for sql operations

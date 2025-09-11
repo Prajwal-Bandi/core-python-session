@@ -134,3 +134,28 @@ FROM employees
 FROM employees
 2025-09-11 15:32:44,456 [INFO] [cached since 70.01s ago] ()
 2025-09-11 15:32:44,456 [INFO] Read All Employee
+2025-09-11 16:01:14,502 [INFO] INSERT INTO employees (id, name, age, salary, is_active) VALUES (?, ?, ?, ?, ?)
+2025-09-11 16:01:14,503 [INFO] [cached since 4018s ago] (78, 'praj', 32, 3333.0, 1)
+2025-09-11 16:01:14,504 [INFO] COMMIT
+2025-09-11 16:01:14,505 [INFO] Employee Created Successfully
+2025-09-11 16:01:18,875 [INFO] BEGIN (implicit)
+2025-09-11 16:01:18,875 [INFO] SELECT employees.id AS employees_id, employees.name AS employees_name, employees.age AS employees_age, employees.salary AS employees_salary, employees.is_active AS employees_is_active 
+FROM employees
+2025-09-11 16:01:18,875 [INFO] [cached since 1784s ago] ()
+2025-09-11 16:01:18,876 [INFO] Read All Employee
+2025-09-11 16:01:48,647 [INFO] INSERT INTO employees (id, name, age, salary, is_active) VALUES (?, ?, ?, ?, ?)
+2025-09-11 16:01:48,648 [INFO] [cached since 4052s ago] (105, 'prajw', 89, 333.0, 1)
+2025-09-11 16:01:48,649 [INFO] COMMIT
+2025-09-11 16:01:48,651 [INFO] Employee Created Successfully
+2025-09-11 16:01:52,687 [INFO] BEGIN (implicit)
+2025-09-11 16:01:52,687 [INFO] SELECT employees.id AS employees_id, employees.name AS employees_name, employees.age AS employees_age, employees.salary AS employees_salary, employees.is_active AS employees_is_active 
+FROM employees
+2025-09-11 16:01:52,688 [INFO] [cached since 1818s ago] ()
+2025-09-11 16:01:52,688 [INFO] Read All Employee
+2025-09-11 16:05:05,936 [INFO] INSERT INTO employees (id, name, age, salary, is_active) VALUES (?, ?, ?, ?, ?)
+2025-09-11 16:05:05,936 [INFO] [cached since 4250s ago] (101, 'or', 32, 32.0, 1)
+2025-09-11 16:05:05,937 [INFO] ROLLBACK
+2025-09-11 16:05:05,937 [ERROR] Duplicate Employee ID:(sqlite3.IntegrityError) UNIQUE constraint failed: employees.id
+[SQL: INSERT INTO employees (id, name, age, salary, is_active) VALUES (?, ?, ?, ?, ?)]
+[parameters: (101, 'or', 32, 32.0, 1)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)

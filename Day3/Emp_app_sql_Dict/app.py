@@ -1,4 +1,4 @@
-import repo_json as repo
+import repo_sql_dict as repo
 
 def menu():
     message = '''
@@ -16,7 +16,7 @@ Your Option:'''
         name = input('Name:')
         age = int(input('Age:'))
         salary = float(input('Salary:'))
-        is_active = (input('Active(y/n):').upper() == 'Y')
+        is_active = (input('Active(y/n):').strip().upper().startswith('Y'))
 
         employee = {'id':id, 'name':name, 'age':age, 
                     'salary':salary, 'is_active':is_active}

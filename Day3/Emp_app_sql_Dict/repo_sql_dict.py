@@ -1,7 +1,7 @@
 from db_setup import session,Employee
 
 #CRUD (Create, Read All | Read One, Update, Delete)
-#Employee App - JSON Persistent Store (DB) - dict element
+#Employee App - SQL DB  - dict element
 
 def create_employee(employee):
     employee_model=Employee(

@@ -6,4 +6,14 @@ and file operation
 sqlite : file RDBMS -SQL DB lightweight
 RDBMS : oracla,sql server,postgree,mysql 
 
-NoSql : Mongo 
+DB Browser
+
+Exception Hanlding :
+  custom Exception
+  raise Exception
+Logging into  file 
+Unit test
+
+
+logging : ogging in Python is a built-in way to track events, errors, or debugging information in your code — especially useful for larger apps, production code, or debugging.
+Instead of using print(), use logging — it's more powerful, configurable, and can write to files, consoles, or external systems.

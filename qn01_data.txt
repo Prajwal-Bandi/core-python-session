@@ -1,2 +1,2 @@
-List: ['jkbnerf']
-Tuple: ('jkbnerf',)
+List: ['git', 'status']
+Tuple: ('git', 'status')

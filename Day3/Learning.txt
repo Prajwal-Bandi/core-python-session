@@ -1,0 +1,9 @@
+function : function in module and import 
+file handling 
+and file operation 
+
+
+sqlite : file RDBMS -SQL DB lightweight
+RDBMS : oracla,sql server,postgree,mysql 
+
+NoSql : Mongo 

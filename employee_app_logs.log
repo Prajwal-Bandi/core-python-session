@@ -103,3 +103,34 @@ FROM employees
 [SQL: INSERT INTO employees (id, name, age, salary, is_active) VALUES (?, ?, ?, ?, ?)]
 [parameters: (101, 'ok', 21, 2222.0, 1)]
 (Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-09-11 15:31:34,439 [INFO] BEGIN (implicit)
+2025-09-11 15:31:34,446 [INFO] SELECT employees.id AS employees_id, employees.name AS employees_name, employees.age AS employees_age, employees.salary AS employees_salary, employees.is_active AS employees_is_active 
+FROM employees
+2025-09-11 15:31:34,446 [INFO] [generated in 0.00044s] ()
+2025-09-11 15:31:34,447 [INFO] Read All Employee
+2025-09-11 15:31:53,351 [INFO] INSERT INTO employees (id, name, age, salary, is_active) VALUES (?, ?, ?, ?, ?)
+2025-09-11 15:31:53,352 [INFO] [cached since 2257s ago] (104, 'New one', 32, 3333.0, 1)
+2025-09-11 15:31:53,353 [INFO] COMMIT
+2025-09-11 15:31:53,354 [INFO] Employee Created Successfully
+2025-09-11 15:31:55,748 [INFO] BEGIN (implicit)
+2025-09-11 15:31:55,749 [INFO] SELECT employees.id AS employees_id, employees.name AS employees_name, employees.age AS employees_age, employees.salary AS employees_salary, employees.is_active AS employees_is_active 
+FROM employees
+2025-09-11 15:31:55,749 [INFO] [cached since 21.3s ago] ()
+2025-09-11 15:31:55,749 [INFO] Read All Employee
+2025-09-11 15:32:29,922 [INFO] INSERT INTO employees (id, name, age, salary, is_active) VALUES (?, ?, ?, ?, ?)
+2025-09-11 15:32:29,922 [INFO] [cached since 2293s ago] (103, 'Ramesh ', 29, 20000.0, 0)
+2025-09-11 15:32:29,924 [INFO] COMMIT
+2025-09-11 15:32:29,926 [INFO] Employee Created Successfully
+2025-09-11 15:32:31,733 [INFO] BEGIN (implicit)
+2025-09-11 15:32:31,734 [INFO] SELECT employees.id AS employees_id, employees.name AS employees_name, employees.age AS employees_age, employees.salary AS employees_salary, employees.is_active AS employees_is_active 
+FROM employees
+2025-09-11 15:32:31,734 [INFO] [cached since 57.29s ago] ()
+2025-09-11 15:32:31,734 [INFO] Read All Employee
+2025-09-11 15:32:42,596 [INFO] SELECT employees.id AS employees_id, employees.name AS employees_name, employees.age AS employees_age, employees.salary AS employees_salary, employees.is_active AS employees_is_active 
+FROM employees
+2025-09-11 15:32:42,596 [INFO] [cached since 68.15s ago] ()
+2025-09-11 15:32:42,597 [INFO] Read All Employee
+2025-09-11 15:32:44,455 [INFO] SELECT employees.id AS employees_id, employees.name AS employees_name, employees.age AS employees_age, employees.salary AS employees_salary, employees.is_active AS employees_is_active 
+FROM employees
+2025-09-11 15:32:44,456 [INFO] [cached since 70.01s ago] ()
+2025-09-11 15:32:44,456 [INFO] Read All Employee

@@ -32,7 +32,7 @@ Your Option: '''
         }
 
         repo.create_flight(flight)
-        print('✅ Flight Created Successfully.')
+        print('Flight Created Successfully.')
 
     elif choice == 2:
         print('\nAll Flights:')
@@ -45,7 +45,7 @@ Your Option: '''
         if flight:
             print('Flight Details:', flight)
         else:
-            print('❌ Flight not found.')
+            print('Flight not found.')
 
     elif choice == 4:
         id = int(input('Flight ID to Update: '))

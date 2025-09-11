@@ -63,9 +63,9 @@ Your Option: '''
                 'destination': flight['destination']
             }
             repo.update_flight(id, updated_flight)
-            print('✅ Flight Updated Successfully.')
+            print('Flight Updated Successfully.')
         else:
-            print('❌ Flight not found.')
+            print('Flight not found.')
 
     elif choice == 5:
         id = int(input('Flight ID to Delete: '))

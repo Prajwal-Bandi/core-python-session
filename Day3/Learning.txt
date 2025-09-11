@@ -15,5 +15,11 @@ Logging into  file
 Unit test
 
 
-logging : ogging in Python is a built-in way to track events, errors, or debugging information in your code — especially useful for larger apps, production code, or debugging.
+logging : logging in Python is a built-in way to track events, errors, or debugging information in your code — especially useful for larger apps, production code, or debugging.
 Instead of using print(), use logging — it's more powerful, configurable, and can write to files, consoles, or external systems.
+
+Exception handling : It is used to catch and respond to errors gracefuly Instead of crashing the program 
+
+exception handling for read_by_id and read_all_ employee,update and delete
+
+unit test : 

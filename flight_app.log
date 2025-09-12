@@ -1,0 +1,66 @@
+2025-09-12 10:21:32,128 [INFO] BEGIN (implicit)
+2025-09-12 10:21:32,128 [INFO] PRAGMA main.table_info("flights")
+2025-09-12 10:21:32,128 [INFO] [raw sql] ()
+2025-09-12 10:21:32,128 [INFO] COMMIT
+2025-09-12 10:21:36,119 [INFO] BEGIN (implicit)
+2025-09-12 10:21:36,122 [INFO] SELECT flights.id AS flights_id, flights.airline AS flights_airline, flights.destination AS flights_destination, flights.price AS flights_price, flights.available AS flights_available 
+FROM flights
+2025-09-12 10:21:36,122 [INFO] [generated in 0.00027s] ()
+2025-09-12 10:22:15,590 [INFO] INSERT INTO flights (id, airline, destination, price, available) VALUES (?, ?, ?, ?, ?)
+2025-09-12 10:22:15,590 [INFO] [generated in 0.00065s] (2986, 'Indigo', 'Hyd', 7655.0, 0)
+2025-09-12 10:22:15,592 [INFO] COMMIT
+2025-09-12 10:22:15,594 [INFO] Flight created: {'id': 2986, 'airline': 'Indigo', 'destination': 'Hyd', 'price': 7655.0, 'available': False}
+2025-09-12 10:22:51,881 [INFO] BEGIN (implicit)
+2025-09-12 10:22:51,884 [INFO] SELECT flights.id AS flights_id, flights.airline AS flights_airline, flights.destination AS flights_destination, flights.price AS flights_price, flights.available AS flights_available 
+FROM flights 
+WHERE flights.id = ?
+ LIMIT ? OFFSET ?
+2025-09-12 10:22:51,884 [INFO] [generated in 0.00031s] (2986, 1, 0)
+2025-09-12 10:26:38,895 [INFO] BEGIN (implicit)
+2025-09-12 10:26:38,895 [INFO] PRAGMA main.table_info("flights")
+2025-09-12 10:26:38,895 [INFO] [raw sql] ()
+2025-09-12 10:26:38,895 [INFO] COMMIT
+2025-09-12 10:27:00,397 [INFO] BEGIN (implicit)
+2025-09-12 10:27:00,401 [INFO] INSERT INTO flights (id, airline, source, destination, price, available) VALUES (?, ?, ?, ?, ?, ?)
+2025-09-12 10:27:00,401 [INFO] [generated in 0.00051s] (98, 'TATA', 'Banlgore', 'hyd', 999999.0, 0)
+2025-09-12 10:27:00,402 [INFO] ROLLBACK
+2025-09-12 10:27:00,402 [ERROR] Error creating flight: (sqlite3.OperationalError) table flights has no column named source
+[SQL: INSERT INTO flights (id, airline, source, destination, price, available) VALUES (?, ?, ?, ?, ?, ?)]
+[parameters: (98, 'TATA', 'Banlgore', 'hyd', 999999.0, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-09-12 10:27:07,638 [INFO] BEGIN (implicit)
+2025-09-12 10:27:07,641 [INFO] SELECT flights.id AS flights_id, flights.airline AS flights_airline, flights.source AS flights_source, flights.destination AS flights_destination, flights.price AS flights_price, flights.available AS flights_available 
+FROM flights
+2025-09-12 10:27:07,641 [INFO] [generated in 0.00031s] ()
+2025-09-12 10:27:07,642 [ERROR] Error fetching flights: (sqlite3.OperationalError) no such column: flights.source
+[SQL: SELECT flights.id AS flights_id, flights.airline AS flights_airline, flights.source AS flights_source, flights.destination AS flights_destination, flights.price AS flights_price, flights.available AS flights_available 
+FROM flights]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-09-12 10:27:23,013 [INFO] SELECT flights.id AS flights_id, flights.airline AS flights_airline, flights.source AS flights_source, flights.destination AS flights_destination, flights.price AS flights_price, flights.available AS flights_available 
+FROM flights
+2025-09-12 10:27:23,013 [INFO] [cached since 15.37s ago] ()
+2025-09-12 10:27:23,014 [ERROR] Error fetching flights: (sqlite3.OperationalError) no such column: flights.source
+[SQL: SELECT flights.id AS flights_id, flights.airline AS flights_airline, flights.source AS flights_source, flights.destination AS flights_destination, flights.price AS flights_price, flights.available AS flights_available 
+FROM flights]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-09-12 10:30:50,757 [INFO] BEGIN (implicit)
+2025-09-12 10:30:50,757 [INFO] PRAGMA main.table_info("flights")
+2025-09-12 10:30:50,757 [INFO] [raw sql] ()
+2025-09-12 10:30:50,757 [INFO] COMMIT
+2025-09-12 10:30:55,261 [INFO] BEGIN (implicit)
+2025-09-12 10:30:55,264 [INFO] SELECT flights.id AS flights_id, flights.airline AS flights_airline, flights.destination AS flights_destination, flights.price AS flights_price, flights.available AS flights_available 
+FROM flights
+2025-09-12 10:30:55,264 [INFO] [generated in 0.00039s] ()
+2025-09-12 10:31:55,301 [INFO] BEGIN (implicit)
+2025-09-12 10:31:55,301 [INFO] PRAGMA main.table_info("flights")
+2025-09-12 10:31:55,302 [INFO] [raw sql] ()
+2025-09-12 10:31:55,302 [INFO] COMMIT
+2025-09-12 10:32:04,192 [INFO] BEGIN (implicit)
+2025-09-12 10:32:04,195 [INFO] INSERT INTO flights (id, airline, destination, price, available) VALUES (?, ?, ?, ?, ?)
+2025-09-12 10:32:04,195 [INFO] [generated in 0.00035s] (101, 'info', 'hyd', 88.0, 0)
+2025-09-12 10:32:04,197 [INFO] COMMIT
+2025-09-12 10:32:04,199 [INFO] Flight created: {'id': 101, 'airline': 'info', 'destination': 'hyd', 'price': 88.0, 'available': False}
+2025-09-12 10:32:09,436 [INFO] BEGIN (implicit)
+2025-09-12 10:32:09,439 [INFO] SELECT flights.id AS flights_id, flights.airline AS flights_airline, flights.destination AS flights_destination, flights.price AS flights_price, flights.available AS flights_available 
+FROM flights
+2025-09-12 10:32:09,439 [INFO] [generated in 0.00028s] ()

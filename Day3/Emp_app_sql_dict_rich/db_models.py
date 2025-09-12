@@ -14,4 +14,3 @@ class Employee(Base):
     
     def __repr__(self):
         return f'id={self.id},name={self.name},age={self.age},salary={self.salary},is_active={self.is_active}'
-    

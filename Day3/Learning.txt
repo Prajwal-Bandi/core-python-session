@@ -25,3 +25,6 @@ exception handling for read_by_id and read_all_ employee,update and delete
 unit test : Unit testing is a software testing technique where you test individual units or components of your code (like functions, methods, or classes) to make sure they work as expected. using __init__.py file 
 
 pytest is a powerful and easy-to-use testing framework for Python that helps you write, organize, and run unit tests, integration tests, and more.
+
+
+# Assignment : flight application with logging

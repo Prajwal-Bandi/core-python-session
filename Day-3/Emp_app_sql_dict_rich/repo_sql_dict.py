@@ -1,7 +1,7 @@
 from db_setup import session, Employee
 from log import logging
 from sqlalchemy.exc import SQLAlchemyError,IntegrityError
-from exc import EmployeeNotFound,EmpoyeeAlreadyExistError,DatabaseError
+from exc import EmployeeNotFound,EmployeeAlreadyExist,DatabaseError
 
 # CRUD (Create, Read All | Read One, Update, Delete)
 # Employee App - SQL DB  - dict element
@@ -22,7 +22,7 @@ def create_employee(employee):
     except IntegrityError as ex:
         session.rollback()
         logging.error('Duplicate Employee ID:%s',ex)
-        raise EmpoyeeAlreadyExistError(f"Employee ID={employee['id']} already exist")
+        raise EmployeeAlreadyExist(f"Employee ID={employee['id']} already exist")
         
     
     except SQLAlchemyError as ex:

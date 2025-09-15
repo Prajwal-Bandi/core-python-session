@@ -64,3 +64,15 @@ FROM flights
 2025-09-12 10:32:09,439 [INFO] SELECT flights.id AS flights_id, flights.airline AS flights_airline, flights.destination AS flights_destination, flights.price AS flights_price, flights.available AS flights_available 
 FROM flights
 2025-09-12 10:32:09,439 [INFO] [generated in 0.00028s] ()
+2025-09-15 10:10:37,265 [INFO] BEGIN (implicit)
+2025-09-15 10:10:37,265 [INFO] PRAGMA main.table_info("flights")
+2025-09-15 10:10:37,265 [INFO] [raw sql] ()
+2025-09-15 10:10:37,265 [INFO] COMMIT
+2025-09-15 10:19:59,092 [INFO] BEGIN (implicit)
+2025-09-15 10:19:59,092 [INFO] PRAGMA main.table_info("flights")
+2025-09-15 10:19:59,093 [INFO] [raw sql] ()
+2025-09-15 10:19:59,093 [INFO] COMMIT
+2025-09-15 10:32:37,833 [INFO] BEGIN (implicit)
+2025-09-15 10:32:37,833 [INFO] PRAGMA main.table_info("flights")
+2025-09-15 10:32:37,833 [INFO] [raw sql] ()
+2025-09-15 10:32:37,833 [INFO] COMMIT

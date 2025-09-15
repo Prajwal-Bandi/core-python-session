@@ -1,0 +1,13 @@
+pytlint  : pylint : Pylint is a Python static code analysis tool that checks your Python code for:
+Coding errors
+Style issues (like spacing, naming, formatting)
+Best practices violations (PEP8)
+Code smells and complexity
+
+
+process : Managing process means starting stopping or interacting with other program or scripts 
+just like how we open and close app in our systems
+
+python lets you control-system-level process using module like
+subprocess : Run shell commands
+Os : Interact with operating system 

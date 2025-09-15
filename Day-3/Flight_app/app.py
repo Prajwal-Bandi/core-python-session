@@ -2,9 +2,28 @@
 from db_setup import Base, engine
 import repo_sql_flight as repo
 
+def create_view():
+    try:
+        id= int(input("Flight ID: "))
+        airline = input("Airline: ")
+        destination = input("Destination: ")
+        price = float(input("Price: "))
+        available = input("Available (y/n): ").strip().lower() == 'y'
+        repo.create_flight({
+                    'id': id,
+                    'airline': airline,
+                    'destination': destination,
+                    'price': price,
+                    'available': available
+                })
+    except Exception as e:
+                print(f"Error: {e}")
 
-
+"""
+ Defining function 
+"""
 def menu():
+    '''Menu option '''
     print("\n--- Flight Management ---")
     print("1. Create Flight")
     print("2. List All Flights")
@@ -19,21 +38,7 @@ def start():
     while True:
         choice = menu()
         if choice == '1':
-            try:
-                id = int(input("Flight ID: "))
-                airline = input("Airline: ")
-                destination = input("Destination: ")
-                price = float(input("Price: "))
-                available = input("Available (y/n): ").strip().lower() == 'y'
-                repo.create_flight({
-                    'id': id,
-                    'airline': airline,
-                    'destination': destination,
-                    'price': price,
-                    'available': available
-                })
-            except Exception as e:
-                print(f"Error: {e}")
+            create_view()
         elif choice == '2':
             flights = repo.get_all_flights()
             for f in flights:

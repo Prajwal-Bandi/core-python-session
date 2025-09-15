@@ -4,7 +4,7 @@ class EmployeeException(Exception):
 class EmployeeNotFound(EmployeeException):
     pass
 
-class EmpoyeeAlreadyExistError(EmployeeException):
+class EmpoyeeAlreadyExist(EmployeeException):
     pass
 
 class DatabaseError(EmployeeException):

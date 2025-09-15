@@ -1,0 +1,4 @@
+2025-09-15 10:31:58,157 [INFO] BEGIN (implicit)
+2025-09-15 10:31:58,158 [INFO] PRAGMA main.table_info("flights")
+2025-09-15 10:31:58,158 [INFO] [raw sql] ()
+2025-09-15 10:31:58,158 [INFO] COMMIT

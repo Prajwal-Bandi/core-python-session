@@ -11,3 +11,18 @@ just like how we open and close app in our systems
 python lets you control-system-level process using module like
 subprocess : Run shell commands
 Os : Interact with operating system 
+
+API : its a messenger that allows two different software to talk each other 
+REST API : Representational State Transfer Application Programming Interface : It is way for two computer system  to communicate over the internet using standard HTTP methods
+HTTTP : HyperText Transfer Protocol
+ GET : get data
+ PUT : Update data
+ Post : Send data
+ DELETE : Remove data 
+
+Thunder Client : Thunder Client is a lightweight API testing extension for VS Code.It helps you send HTTP requests to REST APIs and see the responses — no need for a browser or writing extra code.
+
+ connect and test : 
+  we consume API in the API client tools such as vscode thunder client Postman
+  Base URL :
+  API : API EndPoint

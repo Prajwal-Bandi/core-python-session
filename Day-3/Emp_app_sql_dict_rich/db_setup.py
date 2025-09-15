@@ -10,3 +10,4 @@ Base.metadata.create_all(engine)
 #session for sql operations
 sessionLocal=sessionmaker(bind=engine)
 session=sessionLocal() # for sql ops 
+

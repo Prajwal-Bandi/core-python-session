@@ -1,4 +1,4 @@
-from models import  db,Employee
+from app.models import  db,Employee
 
 
 def create_employee(employee):

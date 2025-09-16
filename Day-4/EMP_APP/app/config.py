@@ -1,3 +1,3 @@
-config={
-    'DB_URL':'sqlite:///employee_app_db.db'
+config = {
+    'DB_URL' : 'sqlite:///employee_app_db.db'
 }
